@@ -44,7 +44,7 @@ async function main(){
         await hablar();
         await hablar();
         await hablar();
-        await adios(ji);
+        await adios(nombre);
     } catch(err){
         console.log("Ha ocurrido un error", err);
         throw Error(err);
